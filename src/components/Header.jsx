@@ -22,13 +22,13 @@ function Header({ cartCount }) {
             <Nav.Link href="#women">Women</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
-          <div className="cart-display">
+          <Nav.Link href="#cart" className="cart-display">
             <FaShoppingCart aria-hidden="true" />
             <span>Cart</span>
             <Badge bg="danger" pill>
               {cartCount}
             </Badge>
-          </div>
+          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

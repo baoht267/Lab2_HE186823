@@ -32,3 +32,11 @@
     margin-top: 12px;
   }
 }
+.cart-display,
+.cart-display:hover,
+.cart-display:focus,
+.cart-display:active {
+  color: #fff !important;
+  background-color: transparent;
+  text-decoration: none;
+}
