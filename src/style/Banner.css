@@ -1,0 +1,41 @@
+.banner-section .carousel-item {
+  height: min(62vh, 560px);
+  min-height: 360px;
+  background: #111827;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.58);
+}
+
+.carousel-caption {
+  bottom: 22%;
+}
+
+.carousel-caption h1 {
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.carousel-caption p {
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+}
+
+@media (max-width: 767px) {
+  .banner-section .carousel-item {
+    height: 440px;
+  }
+
+  .carousel-caption {
+    right: 8%;
+    left: 8%;
+    bottom: 18%;
+  }
+}
